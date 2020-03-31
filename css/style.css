@@ -1,0 +1,14 @@
+div {
+    border:3px black solid;
+}
+
+.nav-link{
+    font-size: 1.5em;
+    align-items: center;
+    background-color: ;
+}
+.bg-image-container {
+    background-image: url(../img/background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
