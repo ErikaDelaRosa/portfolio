@@ -1,5 +1,5 @@
 div {
-    border:3px black solid;
+    
 }
 /*nav menu on top*/
 .nav-link{
@@ -32,10 +32,15 @@ p{
 
 .text-container-about{
     background-color: #E9EEF2;
+   
 }
 .text-container-portfolio {
     background-color:#99ADBF;
+  
 }
 .text-container-help {
     background-color:#405B73;
+    
+    align-items: center;
+    
 }
