@@ -15,6 +15,9 @@ body {
     font: 1.5rem/1.5 var(--font-family-sans-serif);
     color: var(--white);
   }
+h5{
+    letter-spacing: 3px;
+}
   
 /*main picture background */
 .bg-image-container {
@@ -61,8 +64,13 @@ body {
     padding:5rem;
     margin:10px;
 }
+/*skills section*/
 
-
+.text-container-skills{
+    background-color:#8C8C8C;
+    align-content: center;
+    padding:5rem;
+}
 .text-container-help {
     background-color:#8C8C8C;
     align-items: center;
@@ -70,6 +78,11 @@ body {
 /*inside the cards*/
 .card-body {
     color: var(--blue);
+    font-size: 1.5rem;
+}
+.card-title{
+    font-size: 1.7rem;
+    font-weight: bold;
 }
 /*style of the icons*/
 i{
@@ -82,8 +95,9 @@ i{
     color: var(--white);
 }
 .social-icons {
-    text-align: center;
     color:white;
+    font-size: 3rem;
+   
     }  
   .social-icons li {
     display:inline-block;
@@ -121,6 +135,8 @@ i{
     background-repeat: no-repeat;
     background-size: cover;
     position:relative;
+    object-fit: contain;
+    text-align: center;
   }
   
   input[type=submit]:hover {
@@ -144,6 +160,20 @@ i{
       align-self: center;
       align-items: center;
   }
+
+  /*goals section*/
+
+  .text-container-goals{
+      background-color: #001B26;
+      flex-flow: row;
+      align-content: center;
+     padding:5rem;
+     align-items: center;
+     border:40px;
+}
+.card-goals{
+    background-color: transparent;
+}
 
   /*social icons*/
 
