@@ -1,21 +1,21 @@
 div {
-    
+    border:2px black solid;
 }
 /*nav menu on top*/
 .nav-link{
     font-size: 1.5em;
     align-items: center;
 }
-p{
-    font-size: 25px;
-}
-
-
+body {
+    font: 1.5rem/1.5 var(--font-family-sans-serif);
+    color: var(--white);
+  }
+  
 /*main picture background */
 .bg-image-container {
     background-image: url(../img/background.jpeg);
-    height: 55em;
-    width: 120em;
+    height: 45em;
+    width: 81em;
     background-size:cover;
     background-repeat: no-repeat;
 }
@@ -25,22 +25,100 @@ p{
     height: 17rem;
 }
 /*SECTIONS*/
+
 #navbarSupportedContent{
     background-color:#213140;
-    color:white;
+    font: 1.5rem/1.5 var(--font-family-sans-serif);
+    color: var(--white);
+    color:transparent;
 }
 
 .text-container-about{
-    background-color: #E9EEF2;
+    background-color: #262626;
    
 }
 .text-container-portfolio {
-    background-color:#99ADBF;
+    background-color:#404040;
   
 }
 .text-container-help {
-    background-color:#405B73;
-    
+    background-color:#8C8C8C;
     align-items: center;
-    
 }
+/*inside the cards*/
+.card-body {
+    color: var(--blue);
+}
+/*style of the icons*/
+i{
+    font-size: 2rem;
+}
+
+/*contact me section*/
+.text-container-contactme{
+    margin-top: 30px;
+    color: var(--white);
+}
+.social-icons {
+    text-align: center;
+    }  
+  .social-icons li {
+    display:inline-block;
+    list-style-type:none;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    }
+  .social-icons li a {
+    border-bottom: none;
+    }
+  .social-icons li img {
+    width:70px;
+    height:70px;
+    margin-right: 20px;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa{
+      font-size: 2rem;
+      color: var(--white);
+  }
+
+  /*form*/
+  .needs-validation{
+      padding:50px;
+  }
+
+  .container-form{
+    border-radius: 5px;
+    background-color: transparent;
+    padding:10rem;
+    background-image: url(../img/hello3.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+  }
+  
+  input[type=submit]:hover {
+    background-color:#8C8C8C;
+  }
+  input[type=text], select, textarea {
+    width: 50%;
+    flex: auto;
+    align-content: center;
+    align-self: center;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  form{
+      align-self: center;
+      align-items: center;
+  }
+
