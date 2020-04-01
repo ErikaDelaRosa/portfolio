@@ -5,6 +5,11 @@ div {
 .nav-link{
     font-size: 1.5em;
     align-items: center;
+    background-color:#213140;
+    display: block;
+}
+#logo{
+    background-color:#213140;
 }
 body {
     font: 1.5rem/1.5 var(--font-family-sans-serif);
@@ -19,11 +24,12 @@ body {
     background-size:cover;
     background-repeat: no-repeat;
 }
-/*style of the images*/
+/*style of the images from portfolio*/
 .card-img-top{
     width: 22rem;
     height: 17rem;
 }
+
 /*SECTIONS*/
 
 #navbarSupportedContent{
@@ -31,16 +37,32 @@ body {
     font: 1.5rem/1.5 var(--font-family-sans-serif);
     color: var(--white);
     color:transparent;
+    font-weight: bold;
 }
 
+/*about me section*/
 .text-container-about{
     background-color: #262626;
-   
+    padding:5rem;
+    text-align: justify;
+    line-height: 1.6;
 }
+
+/*portfolio section*/
 .text-container-portfolio {
     background-color:#404040;
-  
+    padding:5rem;
+    text-align: justify;
+    line-height: 1.6;
 }
+.container-portfolio{
+    display:flex;
+    align-content: center;
+    padding:5rem;
+    margin:10px;
+}
+
+
 .text-container-help {
     background-color:#8C8C8C;
     align-items: center;
@@ -61,6 +83,7 @@ i{
 }
 .social-icons {
     text-align: center;
+    color:white;
     }  
   .social-icons li {
     display:inline-block;
@@ -120,5 +143,13 @@ i{
   form{
       align-self: center;
       align-items: center;
+  }
+
+  /*social icons*/
+
+  .text-container-social{
+      color:white;
+      display:flex;
+      justify-content: space-evenly;
   }
 
