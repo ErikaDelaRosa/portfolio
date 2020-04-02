@@ -2,7 +2,9 @@ div {
     /*border:2px black solid;*/
 }
 /*nav menu on top*/
-
+#empty{
+    background-color:#213140;
+}
 .nav-link{
     font-size: 1.5em;
     align-items: center;
@@ -49,11 +51,10 @@ h5{
 }
 #logotras{
     background-color:transparent;
-    font-size:30px;
+    font-size:32px;
     color:white;
     padding-top:14px;
     border:0;
-    
 }
 
 /*about me section*/
@@ -258,7 +259,8 @@ img{
 
 /*FOOTER*/
 footer{
-    font-size: 16px;
+    font-size: 18px;
     background-color: #001B26;
     text-align: center;
+    padding:10px;
 }
