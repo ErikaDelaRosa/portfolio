@@ -1,12 +1,14 @@
 div {
-    border:2px black solid;
+    /*border:2px black solid;*/
 }
 /*nav menu on top*/
+
 .nav-link{
     font-size: 1.5em;
     align-items: center;
     background-color:#213140;
-    display: block;
+    display:flex;
+    color:var(--white);
 }
 #logo{
     background-color:#213140;
@@ -35,12 +37,22 @@ h5{
 
 /*SECTIONS*/
 
+.navbar{
+    padding:0;
+}
 #navbarSupportedContent{
     background-color:#213140;
     font: 1.5rem/1.5 var(--font-family-sans-serif);
     color: var(--white);
-    color:transparent;
     font-weight: bold;
+    padding: 0;
+}
+#logotras{
+    background-color:transparent;
+    font-size:30px;
+    color:white;
+    padding-top:14px;
+    
 }
 
 /*about me section*/
@@ -63,7 +75,10 @@ h5{
     align-content: center;
     padding:5rem;
     margin:10px;
+    padding-bottom: 25px;
+    
 }
+
 /*skills section*/
 
 .text-container-skills{
@@ -75,18 +90,68 @@ h5{
     background-color:#8C8C8C;
     align-items: center;
 }
-/*inside the cards*/
+/*inside the cards of SKILLS*/
 .card-body {
     color: var(--blue);
     font-size: 1.5rem;
+    width: 22rem;
+    height: 13rem;
 }
 .card-title{
     font-size: 1.7rem;
     font-weight: bold;
 }
+.card-text-skills {
+    font-size: 18px;
+    text-align: justify;
+    width: 25rem;
+    height: 40rem;
+}
+
+/*RESUME SECTION*/
+.text-container-resume{
+    background-color: #0A353F;
+    padding: 10rem;
+}
+.tableTxt{
+    width: 65%;
+    height: 10%;
+    line-height: 1.6;
+    text-align: justify;
+    border-spacing:5px;
+    border-right:hidden;  
+    border-spacing:0 15px; 
+}
+#company{
+    border-left: hidden;
+}
+
+table tr td {
+    line-height: 1.6;
+    border-spacing:5px;
+}
+table{
+    border-spacing: 5px 1rem;
+    border-collapse: collapse;
+}
+th, td { 
+    width:150px; 
+    text-align:center; 
+    border:1px solid white; 
+    padding:5px;
+  
+} 
+
 /*style of the icons*/
 i{
     font-size: 2rem;
+}
+
+/*GOALS SECTION*/
+
+#img-goals{
+   width: 8vw;
+   height: 11vh;
 }
 
 /*contact me section*/
@@ -119,6 +184,9 @@ i{
   .fa{
       font-size: 2rem;
       color: var(--white);
+  }
+  #contact{
+      align-content: center;
   }
 
   /*form*/
@@ -174,6 +242,10 @@ i{
 .card-goals{
     background-color: transparent;
 }
+img{
+    display: flex;
+    align-content: center;
+}
 
   /*social icons*/
 
@@ -183,3 +255,9 @@ i{
       justify-content: space-evenly;
   }
 
+/*FOOTER*/
+footer{
+    font-size: 16px;
+    background-color: #001B26;
+    text-align: center;
+}
